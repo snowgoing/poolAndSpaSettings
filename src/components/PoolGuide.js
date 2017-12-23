@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SuctionPoolSet from './../images/SuctionSpaSet.jpg';
-import ReturnPoolSet from './../images/ReturnSpaSet.jpg';
-import WaterfallPoolSet from './../images/WaterfallSpaSet.jpg';
+import SuctionPoolSet from './../images/SuctionPoolSet.jpg';
+import ReturnPoolSet from './../images/ReturnPoolSet.jpg';
+import WaterfallPoolSet from './../images/WaterfallPoolSet.jpg';
 import Heater from './../images/poolHeater.jpg';
 import Pump from './../images/variablePoolPump.jpg';
 import Pad from './../images/digitalPad.jpg';
