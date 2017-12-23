@@ -4,6 +4,7 @@ html {
 .center {
   text-align: center;
   padding-top: 50px;
+  margin-bottom: 100px;
 }
 .scale_image {
   width: 90vw;
@@ -30,8 +31,13 @@ html {
   text-shadow: 1px 1px #000;
   margin: 0 10px 0 10px;
 }
-p, h1, h2, h3 {
+p, h1, h3 {
   color: #efefef;
   text-shadow: 2px 2px #000;
   font-family: futura, "Helvetica Neue";
+}
+.test {
+  font-size: 100px;
+  color: red;
+  text-align: center;
 }
