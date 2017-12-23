@@ -1,3 +1,6 @@
+html {
+  background: #323232;
+}
 .center {
   text-align: center;
   padding-top: 50px;
@@ -27,12 +30,8 @@
   text-shadow: 1px 1px #000;
   margin: 0 10px 0 10px;
 }
-.spaSpan {
-  color: red;
-}
-.poolSpan {
-  color: blue;
-}
-.tab_bar {
-  background: red;
+p, h1, h2, h3 {
+  color: #efefef;
+  text-shadow: 2px 2px #000;
+  font-family: futura, "Helvetica Neue";
 }

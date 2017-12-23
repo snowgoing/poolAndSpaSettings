@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
-import SuctionPoolSet from './../images/SuctionPoolSet.jpg';
-import ReturnPoolSet from './../images/ReturnPoolSet.jpg';
-import WaterfallPoolSet from './../images/WaterfallPoolSet.jpg';
+import SuctionPoolSet from './../images/SuctionSpaSet.jpg';
+import ReturnPoolSet from './../images/ReturnSpaSet.jpg';
+import WaterfallPoolSet from './../images/WaterfallSpaSet.jpg';
 import Heater from './../images/poolHeater.jpg';
-import ControlBox from './../images/PoolControlBox.jpg';
-import DialOff from './../images/PoolDialOff.png';
-import DialOn from './../images/PoolDialOn.png';
+import Pump from './../images/variablePoolPump.jpg';
+import Pad from './../images/digitalPad.jpg';
 
 class PoolGuide extends Component {
   render() {
     return (
       <div className='center'>
         <h2>Pool Settings</h2>
-        <p>Open Control Box on house exterior wall</p>
-        <div><img className='scale_image' src={ControlBox} alt="Pool Control Box"/></div>
-        <p>Turn off pool filter</p>
-        <div><img className='scale_image' src={DialOff} alt="Pool Dial Off"/></div>
-        <p>Turn handles according to pics</p>
+        <h3>Open the lid of the digital pad</h3>
+        <div><img className='scale_image' src={Pump} alt="Variable Pool Pump"/></div>
+        <h3>Push STOP to turn off filter (Make sure adjacent green light is off)</h3>
+        <div><img className='scale_image' src={Pad} alt="Digital Pool Pad"/></div>
+        <h3>Turn handles according to pics</h3>
         <div><img className='scale_image' src={ReturnPoolSet} alt="Return Handle"/></div>
         <div><img className='scale_image' src={SuctionPoolSet} alt="Suction Handle"/></div>
         <div><img className='scale_image' src={WaterfallPoolSet} alt="Main Waterfall Handle"/></div>
-        <p>Turn off pool heater. Button has three settings. Pool (down), Spa (up) and Off (middle).</p>
+        <h3>Turn off pool heater. Button has three settings. Pool (down), Spa (up) and Off (middle).</h3>
         <div><img className='scale_image' src={Heater} alt="Pool and Spa Heater"/></div>
-        <p>Turn on pool filter</p>
-        <div><img className='scale_image' src={DialOn} alt="Pool Dial On"/></div>
+        <h3>Press START to turn on pool filter</h3>
+        <div><img className='scale_image' src={Pad} alt="Digital Pool Pad"/></div>
       </div>
     )
   }

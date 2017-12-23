@@ -26,9 +26,9 @@ class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-          <Tabs onChange={this.handleChange} value={this.state.slideIndex} className="tab_bar">
-            <Tab label="Spa" value={0} />
-            <Tab label="Pool" value={1} />
+          <Tabs onChange={this.handleChange} value={this.state.slideIndex} tabTemplateStyle={{background: 'red'}}>
+            <Tab label="Spa" value={0} style={{background: '#80A1C1'}}/>
+            <Tab label="Pool" value={1} style={{background: '#80A1C1'}}/>
           </Tabs>
           <SwipeableViews index={this.state.slideIndex} onChangeIndex={this.handleChange}>
             <SpaGuide />

@@ -3,28 +3,27 @@ import SuctionSpaSet from './../images/SuctionSpaSet.jpg';
 import ReturnSpaSet from './../images/ReturnSpaSet.jpg';
 import WaterfallSpaSet from './../images/WaterfallSpaSet.jpg';
 import Heater from './../images/poolHeater.jpg';
-import ControlBox from './../images/PoolControlBox.jpg';
-import DialOff from './../images/PoolDialOff.png';
-import DialOn from './../images/PoolDialOn.png';
+import Pump from './../images/variablePoolPump.jpg';
+import Pad from './../images/digitalPad.jpg';
 
 class SpaGuide extends Component {
   render() {
     return (
       <div className='center spaPage'>
-        <h2>Spa Settings</h2>
-        <p>Open Control Box on house exterior wall</p>
-        <div><img className='scale_image' src={ControlBox} alt="Pool Control Box"/></div>
-        <p>Turn off pool filter</p>
-        <div><img className='scale_image' src={DialOff} alt="Pool Dial Off"/></div>
-        <p>Turn handles according to pics</p>
+        <h1>Spa Settings</h1>
+        <h3>Open the lid of the digital pad</h3>
+        <div><img className='scale_image' src={Pump} alt="Variable Pool Pump"/></div>
+        <h3>Push STOP to turn off filter (Make sure adjacent green light is off)</h3>
+        <div><img className='scale_image' src={Pad} alt="Digital Pool Pad"/></div>
+        <h3>Turn handles according to pics</h3>
         <div><img className='scale_image' src={ReturnSpaSet} alt="Return Handle"/></div>
         <div><img className='scale_image' src={SuctionSpaSet} alt="Suction Handle"/></div>
         <div><img className='scale_image' src={WaterfallSpaSet} alt="Main Waterfall Handle"/></div>
-        <p>Turn on heater. Button has three settings. Pool (down), Spa (up) and Off (middle). Push in upper part of button to turn on Spa heater.</p>
+        <h3>Turn on heater. Button has three settings. Pool (down), Spa (up) and Off (middle). Push in upper part of button to turn on Spa heater.</h3>
         <div><img className='scale_image' src={Heater} alt="Pool and Spa Heater"/></div>
-        <p>Turn on pool filter</p>
-        <div><img className='scale_image' src={DialOn} alt="Pool Dial On"/></div>
-        <h2>Important: Remember to turn off heater and return dials back to pool settings when finished. </h2>
+        <h3>Press START to turn on pool filter. The plus and minus buttons can be used to increase or decrease the power of the spa jets.</h3>
+        <div><img className='scale_image' src={Pad} alt="Digital Pool Pad"/></div>
+        <h2>Important: Remember to turn off heater and return handles back to pool settings when finished. </h2>
       </div>
     )
   }
